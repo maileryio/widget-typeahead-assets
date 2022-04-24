@@ -1,5 +1,5 @@
 <template>
-  <div class="typeahead">
+  <div class="ui-typeahead">
     <input
       :type="type"
       :name="name"
@@ -122,7 +122,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .typeahead {
+  .ui-typeahead {
     padding: 0;
     border: none;
     position: relative;
