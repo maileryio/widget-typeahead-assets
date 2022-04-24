@@ -1,5 +1,5 @@
 <template>
-  <div class="typehead">
+  <div class="typeahead">
     <input
       :type="type"
       :name="name"
@@ -29,14 +29,14 @@
   export default {
     name: 'ui-typeahead',
     props: {
-      url: 'String',
-      type: 'String',
-      name: 'String',
-      value: 'String',
-      maxlength: 'Number',
-      minlength: 'Number',
-      required: 'String',
-      classname: 'String'
+      url: String,
+      type: String,
+      name: String,
+      value: String,
+      maxlength: Number,
+      minlength: Number,
+      required: String,
+      classname: String
     },
     data () {
       return {
@@ -121,8 +121,8 @@
   }
 </script>
 
-<style scoped lang="scss">
-  .typehead {
+<style lang="scss" scoped>
+  .typeahead {
     padding: 0;
     border: none;
     position: relative;
