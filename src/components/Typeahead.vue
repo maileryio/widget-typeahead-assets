@@ -3,7 +3,7 @@
     <input
       :type="type"
       :name="name"
-      :class="classname"
+      :class="className"
       :maxlength="maxlength"
       :minlength="minlength"
       :required="required"
@@ -36,7 +36,7 @@
       maxlength: Number,
       minlength: Number,
       required: String,
-      classname: String
+      className: String
     },
     data () {
       return {
